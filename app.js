@@ -2,7 +2,7 @@ class App{
 constructor(selectors){
         this.flicks=[]
         this.max=0
-  this.currentCat=''
+        this.currentCat=''
         this.list=document.querySelector(selectors.listSelector)
         this.catList=document.querySelector(selectors.catagoryList)
         this.template=document.querySelector(selectors.templateSelector)

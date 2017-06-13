@@ -1,3 +1,14 @@
 .template{
   visibility: hidden;
 }
+h2{
+    text-align: center;
+}
+li.catagory{
+border: 2px solid black;
+padding: 2px;
+}
+body{
+background: linear-gradient(yellow,green)
+
+}
