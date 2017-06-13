@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
 .template{
   visibility: hidden;
+}
+h1{
+  font-family: 'Bubbler One';
+  text-align: center;
 }
 h2{
     text-align: center;
