@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+ <html class="no-js"> 
+    <head>
+   
+        <title>Jeffervescence</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+  
+    <link rel="stylesheet" href="app.css">
+    </head>
+
+
+
+
+
+<body>
+  <h1>Catagorizer</h1>
+ <form id = "catagory-form">
+        <div class="input-group">
+        <input type="text" class="input-group-field" name="response" placeholder="Name a Flick" autofocus required>
+ <input type="text" class="input-group-field" name="catagory" placeholder="What catagory" required>
+            <div class="input-group-button">
+        <button type="submit" class="button">Add movie</button>
+        </div>
+        </div>
+    </form> 
+   
+   
+   <div>
+        <h2>Catagoies</h2>
+    <ul id="catagory-list" class ="no-bullet">    
+        <li class = "catagory template">
+            <span 
+            class="catagory-name" 
+            contenteditable="false"></span>
+        </li>
+    </ul> 
+   </div>
+
+
+    <div>
+        <h2>List</h2>
+        <ul id="flick-list" class ="no-bullet">
+            
+            <li class = "flick template">
+               <span class="flick-name" contenteditable="true"></span>
+               <span class="flick-year"></span>
+               <span class="actions">
+                <button class="favorite fav button">Fav</button>
+                
+                <button class="remove button alert">Delete</button>
+                 <button class="up fav button">UP</button>
+                
+                <button class="down fav button">DOWN</button>
+                </span>
+                </li>
+
+        </ul>
+
+    </div>
+ <script src="app.js"></script>
+        </body>
+</html>
